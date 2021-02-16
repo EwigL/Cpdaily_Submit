@@ -1,8 +1,8 @@
 name: CPDaily_Submit
 
 on:
-  watch:
-    type: started
+#   watch:
+#     type: started
 
   schedule:
     - cron: '0 2 * * *'
