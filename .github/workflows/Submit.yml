@@ -22,4 +22,4 @@ jobs:
     - name: Submit
       run: |
         sudo apt-get install tesseract-ocr
-        java -jar cpdaily_submit_mod.jar ${{secrets.ID}} ${{secrets.PW}} ${{secrets.ADDRESS}} ${{secrets.KEYS}} ${{secrets.FROM_MAIL}} ${{secrets.FROM_MAIL_PWD}} ${{secrets.TO_MAIL}}
+        java -jar Cpdaily_Submit.jar ${{secrets.ID}} ${{secrets.PW}} ${{secrets.ADDRESS}} ${{secrets.KEYS}} ${{secrets.FROM_MAIL}} ${{secrets.FROM_MAIL_PWD}} ${{secrets.TO_MAIL}}
