@@ -4,8 +4,8 @@ on:
   watch:
     type: started
 
-  schedule:
-    - cron: '0 2 * * *'
+#   schedule:
+#     - cron: '0 2 * * *'
 
 jobs:
   Submit:
